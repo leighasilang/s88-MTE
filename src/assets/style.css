@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+:root {
+    --regal-navy: #0A1D4B;
+    --deep-crimson: #9E0E18;
+    --opulent-gold: #CC9E4A;
+    --ethereal-ivory: #F7EBE0;
+    --velvet-obsidian: #171721;
+}
+
+body {
+    background-color: var(--ethereal-ivory);
+    color: var(--velvet-obsidian);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--regal-navy);
+    font-weight: 700;
+}
+
+.card {
+    background-color: #fffaf5;
+    border: 1px solid var(--opulent-gold);
+    border-radius: 12px;
+}
+
+.btn-primary {
+    background-color: var(--deep-crimson);
+    border-color: var(--deep-crimson);
+}
+
+.btn-primary:hover {
+    background-color: var(--regal-navy);
+    border-color: var(--regal-navy);
+}
+
+.btn-secondary {
+    background-color: var(--regal-navy);
+    border-color: var(--regal-navy);
+}
+
+.form-control {
+    border: 1px solid var(--opulent-gold);
+    background-color: #fffaf5;
+}
+
+.form-control:focus {
+    border-color: var(--regal-navy);
+    box-shadow: 0 0 0 0.2rem rgba(10, 29, 75, 0.15);
+}
+
+.table thead {
+    background-color: var(--regal-navy);
+    color: var(--ethereal-ivory);
+}
+
+.table-dark {
+    --bs-table-bg: var(--regal-navy);
+    --bs-table-color: var(--ethereal-ivory);
+}
+
+a {
+    color: var(--deep-crimson);
+}
+
+a:hover {
+    color: var(--regal-navy);
+}
